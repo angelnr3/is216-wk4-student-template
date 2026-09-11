@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    {{ message }} 
+    <p>{{ message }} </p>
    
     <!--<label for=""> <input type="radio" name="fruit"> {{ fruits[0] }} </label> 
     this method requires manual additions per fruit via each index [1], [2]

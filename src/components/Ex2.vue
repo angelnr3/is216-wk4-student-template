@@ -10,7 +10,7 @@
     const obj = ref({
         width: '200',
         height: '200px',
-        scr: '/assets/me.png',
+        src: '/assets/me.png',
     })
 
 </script>
@@ -18,5 +18,5 @@
 <template>
     <!-- Add code here -->
    <img v-bind:src="myImg" :width="width" :height="height"/>
-   <img v-bind="'obj'">
+   <img v-bind="obj">
 </template>
